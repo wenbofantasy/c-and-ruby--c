@@ -1,0 +1,8 @@
+This git repositories is about the exercises of C and ruby program language. The questions are extracted from a book called
+<<C程序设计题解与上机指导>>, and from the name of each file which the file extention is "c", you could understand how to correspond 
+each exercise here to the one in the book, For example, the file 4.8.c in this git repository corresponds to exercise chapter 4 section 8 in the book.
+And the exercise will be solved in both c language and ruby language, in this way I believe that this git repository could improve my both C programming skill and Ruby programming skill.
+Actually, there is a great textbook called << C程序设计 >>, which authored by 谭浩强. This book is good material to learn C program language,
+and I dare to say in China everyone that familiar with C or even just heard of it must know this book. Tell you what, I just heard about this book two month ago.
+
+
