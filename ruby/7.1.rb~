@@ -1,0 +1,20 @@
+#a = [1..100]
+#i = 2
+#j = 2
+#while i < 100
+  #i +=1
+  #a[i] = i
+  ##puts a[i]
+  #while j <= i
+    #j += 1
+    #if j < i
+      #if a[i]%j == 0
+        #break
+      #end
+      #if a[i]-j == 0
+        #puts a[i]
+      #end
+    #end
+    #puts a[i]  
+  #end
+#end
