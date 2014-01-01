@@ -6,21 +6,24 @@ s2 = 0
 s3 = 0
 
 while i <= 100
-  i += 1
   s1 = s1+ i
-  puts "s1: ", s1
+  i += 1
+  #puts "s1: ", s1
   end
 
-while j <=50
-j +=1
+while j <= 50
 s2 = s2 + j*j
-  puts "s1: ", s2
+j +=1
+  #puts "s1: ", s2
 end
 
 while k <= 10
+  s3 = s3 + 1/k.to_f
   k += 1
-  s3 = s3 + 1/k
-  puts "s1: ", s3
+  #puts "s3: ", s3
 end 
 sum = s1 + s2 + s3
 puts sum
+puts s2
+puts "s1: ",s1
+puts s3
