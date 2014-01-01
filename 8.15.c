@@ -83,3 +83,60 @@ int search(int num[10],int n)        //查找定义；
     return(-1);
   }
 }
+
+/*
+bob@hp:c_and_ruby_exercises$ gcc 8.15.c -o 8.15
+8.15.c: 在函数‘main’中:
+8.15.c:21:5: 警告： 不建议使用‘gets’(声明于 /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+bob@hp:c_and_ruby_exercises$ ./8.15
+输入第1位职工的号码:1
+输入第1位职工的名字:Li
+输入第2位职工的号码:2
+输入第2位职工的名字:Wang
+输入第3位职工的号码:5
+输入第3位职工的名字:Liu
+输入第4位职工的号码:8
+输入第4位职工的名字:Ma
+输入第5位职工的号码:4
+输入第5位职工的名字:Chen
+输入第6位职工的号码:10
+输入第6位职工的名字:Zhou
+输入第7位职工的号码:12
+输入第7位职工的名字:Zhang
+输入第8位职工的号码:6
+输入第8位职工的名字:Xie
+输入第9位职工的号码:23
+输入第9位职工的名字:Yuan
+输入第10位职工的号码:34
+输入第10位职工的名字:Lu
+1       Li
+
+2       Wang
+
+4       Chen
+
+5       Liu
+
+6       Xie
+
+8       Ma
+
+10      Zhou
+
+12      Zhang
+
+23      Yuan
+
+34      Lu
+
+
+input n:
+3
+can not find No. 3!
+
+continue or not(Y/N)?y
+input n:
+6
+Xie
+continue or not(Y/N)?n
+*/
